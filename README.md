@@ -16,7 +16,7 @@ namespace YourNamespace
 	{
 		public void YourMethod()
 		{
-            IScore score = new Flush();
+			IScore score = new Flush();
 			var cards = new Card[5] {
 				new Card() { Suit = Suit.Hearts, Rank = Rank.Ace },
 				new Card() { Suit = Suit.Hearts, Rank = Rank.Rank10 },
